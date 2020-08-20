@@ -12,7 +12,7 @@
 
 ---
 
- `GET`
+***`GET`***
 
 > Use this method to receive artist's albums
 if the name of artist is composed by `one` word:
@@ -41,7 +41,7 @@ http -f GET localhost:8080/albums/"The Rolling Stones"
 
 ---
 
-`POST`
+***`POST`***
 
 > If the album isn't in the database, then it is added, if such an album already exists, raise -error-message-409-
 
