@@ -34,6 +34,8 @@ http -f GET localhost:8080/albums/"The Rolling Stones"
 
 `POST`
 
+<!-- if album doesnt exist in database, add, if  -->
+
 ```python
 http -f POST localhost:8080/albums artist="Disturbed" album="Ten Thousand Fists" genre="Alternative" year="2005"
 ```
