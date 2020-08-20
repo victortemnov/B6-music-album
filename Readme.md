@@ -12,7 +12,7 @@
 
 ---
 
-## `GET`
+ `GET`
 
 > Use this method to receive artist's albums
 if the name of artist is composed by `one` word:
