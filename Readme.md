@@ -14,8 +14,8 @@
 
 `GET`
 
-<p>Use this method to receive artist's albums
-if the name of artist is composed by one word:<p>
+Use this method to receive artist's albums
+if the name of artist is composed by one word:
 
 ```python
 http -f GET localhost:8080/albums/Beatles
