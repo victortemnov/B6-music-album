@@ -12,7 +12,7 @@
 
 ---
 
-`GET`
+## `GET`
 
 > Use this method to receive artist's albums
 if the name of artist is composed by `one` word:
@@ -25,7 +25,7 @@ http -f GET localhost:8080/albums/Beatles
 http -f GET localhost:8080/albums/Queen
 ```
 
-if `two-three-word` use `quotes`:
+> if `two-three-word` use `quotes`:
 
 ```Python
 http -f GET localhost:8080/albums/"Pink Floyd"
