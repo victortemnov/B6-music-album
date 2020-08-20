@@ -8,7 +8,7 @@
 
 - [*albums.sqlite3*](https://drive.google.com/file/d/1KHKrio-StI9jVIVgJH1EKaObpAFzRx25/view)  - database
 
-### libraries used: `sqlalchemy, bottle`
+### Libraries used: `sqlalchemy, bottle`
 
 ---
 
