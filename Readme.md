@@ -28,7 +28,9 @@ http -f GET localhost:8080/albums/"Pink Floyd"
 http -f GET localhost:8080/albums/"The Rolling Stones"
 ```
 
-`POST`
+---
+
+## `POST`
 
 ```python
 http -f POST localhost:8080/albums artist="Disturbed" album="Ten Thousand Fists" genre="Alternative" year="2005"
