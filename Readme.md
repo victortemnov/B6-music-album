@@ -2,9 +2,9 @@
 
 ## 1. Download:
 
-- [**album_database.py**](https://link)
+- [**album_database.py**](https://github.com/victortemnov/music-album/blob/master/album_database.py)
 
-- [**album_server.py**](https://link)
+- [**album_server.py**](https://github.com/victortemnov/music-album/blob/master/album_server.py)
 
 - [*albums.sqlite3*](https://drive.google.com/file/d/1KHKrio-StI9jVIVgJH1EKaObpAFzRx25/view)  - `database from google`
 
