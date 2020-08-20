@@ -17,26 +17,26 @@
 > Use this method to receive artist's albums
 if the name of artist is composed by `one` word:
 
-```python
-http -f GET localhost:8080/albums/`Beatles`
+```Python
+http -f GET localhost:8080/albums/Beatles
 ```
 
-```python
-http -f GET localhost:8080/albums/`Queen`
+```Python
+http -f GET localhost:8080/albums/Queen
 ```
 
 if `two-three-word` use `quotes`:
 
-```python
-http -f GET localhost:8080/albums/`"Pink Floyd"`
+```Python
+http -f GET localhost:8080/albums/"Pink Floyd"
 ```
 
-```python
-http -f GET localhost:8080/albums/`"Gentle Giant"`
+```Python
+http -f GET localhost:8080/albums/"Gentle Giant"
 ```
 
-```python
-http -f GET localhost:8080/albums/`"The Rolling Stones"`
+```Python
+http -f GET localhost:8080/albums/"The Rolling Stones"
 ```
 
 ---
@@ -45,6 +45,6 @@ http -f GET localhost:8080/albums/`"The Rolling Stones"`
 
 > If the album isn't in the database, then it is added, if such an album already exists, raise -error-message-409-
 
-```python
-http -f POST localhost:8080/albums `artist="Disturbed" album="Ten Thousand Fists" genre="Alternative" year="2005"`
+```Python
+http -f POST localhost:8080/albums artist="Disturbed" album="Ten Thousand Fists" genre="Alternative" year="2005"
 ```
