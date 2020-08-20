@@ -8,13 +8,13 @@
 
 - [*albums.sqlite3*](https://drive.google.com/file/d/1KHKrio-StI9jVIVgJH1EKaObpAFzRx25/view)  - database
 
-### After, run module `album_server.py`
+### Than, run module `album_server.py`
 
 ---
 
 `GET`
 
-Use this method to receive artist's albums
+> Use this method to receive artist's albums
 if the name of artist is composed by one word:
 
 ```python
