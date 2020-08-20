@@ -6,7 +6,7 @@ from bottle import run
 
 from album_database import DataBaseSession, Album, DuplicateAlbumError
 
-
+# put path db in DB_PATH
 DB_PATH = "sqlite:///albums.sqlite3"
 db = DataBaseSession(DB_PATH)
 
