@@ -10,7 +10,7 @@
 
 ### After download run module `album_server.py`
 
-`GET`
+## `GET`
 
 if the `artist` name is from `one` word:
 
