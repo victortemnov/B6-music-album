@@ -34,7 +34,7 @@ http -f GET localhost:8080/albums/"The Rolling Stones"
 
 `POST`
 
-> If the album is not in the database, then it adds, if there is raise 409 error-message
+> If the album isn't in the database, then it is added, if such an album already exists, raise -error-message-409-
 
 ```python
 http -f POST localhost:8080/albums artist="Disturbed" album="Ten Thousand Fists" genre="Alternative" year="2005"
