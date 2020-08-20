@@ -8,7 +8,7 @@
 
 - [*albums.sqlite3*](https://drive.google.com/file/d/1KHKrio-StI9jVIVgJH1EKaObpAFzRx25/view)  - `database from google`
 
-## 2. After download run module **album_server.py**
+## 2. After download run module `album_server.py`
 
 `GET`
 
