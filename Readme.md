@@ -1,14 +1,14 @@
-# Temnov hw-b6-web-app
+# Web app
 
-## 1. Download:
+## Download:
 
-- [**album_database.py**](https://github.com/victortemnov/music-album/blob/master/album_database.py)
+- [**album_database.py**](https://github.com/victortemnov/music-album/blob/master/album_database.py) - module_1
 
-- [**album_server.py**](https://github.com/victortemnov/music-album/blob/master/album_server.py)
+- [**album_server.py**](https://github.com/victortemnov/music-album/blob/master/album_server.py) - module_2
 
-- [*albums.sqlite3*](https://drive.google.com/file/d/1KHKrio-StI9jVIVgJH1EKaObpAFzRx25/view)  - `database from google`
+- [*albums.sqlite3*](https://drive.google.com/file/d/1KHKrio-StI9jVIVgJH1EKaObpAFzRx25/view)  - database
 
-## 2. After download run module `album_server.py`
+## After download run module `album_server.py`
 
 `GET`
 
