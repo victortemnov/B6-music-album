@@ -20,10 +20,18 @@ if the `artist` name is from `one` word:
 http -f GET localhost:8080/albums/Beatles
 ```
 
+```python
+http -f GET localhost:8080/albums/Queen
+```
+
 if `two-three-word` use `quotes`:
 
 ```python
 http -f GET localhost:8080/albums/"Pink Floyd"
+```
+
+```python
+http -f GET localhost:8080/albums/"Gentle Giant"
 ```
 
 ```python
